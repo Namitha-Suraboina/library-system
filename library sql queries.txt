@@ -1,0 +1,11 @@
+#Query for creating the table 
+
+create table books( 
+ISBN varchar(10), 
+title varchar(50), 
+author varchar(50)); 
+
+#Query for inserting value into table
+insert into books(bid,bname,bauthor) 
+values(0001,"Romeo and Juliet","William Shakespeare");
+
