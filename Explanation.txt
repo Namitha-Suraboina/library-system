@@ -1,0 +1,284 @@
+<DOCTYPE html>#browser should know the type of language .
+               All HTML document must start with this declaration .
+               The doctype declaration is an instruction to web browser about what version of Html the page is written.
+<html>#Tags- open tag
+<head>#a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+      #Meta Data is about the HTML document.
+      #MD is not displayed but  typically define the document title, character set, style ,scrips 
+<meta/>#tells about the icon
+<title></title>
+</head>
+<body># all the info present in the web site is written in this body tag only. 
+      #such as - headlings, paragraphs, imgs, hyper links , tables, list, etc.
+</body>
+</html>#close tag
+
+
+Structure of HTML normal Element 
+Element-<tag>- start tag
+       -Content(Text)- content
+       -</tag>-End tag
+
+Heading Tag;
+
+A html heading tag is used to define headings of a page.
+we any have "6" heading tags only .h1 being the highest level and h6 being the least.
+h1,h2,h3,h4,h5,h6 where font size will be decreased gradually .
+h7 will be displayed general size only, so there are no h7,h8 ...tags  and 
+we can commenting by commend:"ctr+?" , format- <!-- commenting in html>
+
+paragraph tag <p> - it will display the content in a line or a paragraph format only.
+ex:  <p>
+        var a=45
+        var b=67
+        var c=90
+        console.log(a+b+c); 
+    </p>
+
+op : var a=45 var b=67 var c=90 console.log(a+b+c);
+
+
+"shift+!+enter" tag to get full html structure...
+
+"ctr+?" to make comment
+
+
+Button tag <button>: is used to define the click button .
+ex:" submit button "
+<button>click hear</button>
+
+
+
+pre tag -<pre> will display the content according to what u text in it ..
+
+ex: <pre>
+        var a=45
+        var b=67
+        var c=90
+        console.log(a+b+c); 
+    </pre>
+op     :var a=45
+        var b=67
+        var c=90
+        console.log(a+b+c); 
+
+
+Small Basic HTML Tags:
+
+
+<h1>2345<sup>67890</sup></h1>
+where we use this to get squere or cube values ...
+
+
+<h3>CH<sub>3</sub>CHOO</h3>
+where we use this while chemical bond names ....
+
+
+<marquee loop="3" scrollamount="20" direction="right"><h1>CodeGnan Destination</h1></marquee>
+it is all bout to display a attribute ... which moves from right to left 3 times ...
+
+
+<h1>399 <del>499</del></h1>
+we will be getting "499" as strike off and 399 normal 
+
+
+<mark>Marking Important content</mark>
+highlight the content 
+
+
+<b> text </b> this is use to print "bold" content..
+<i> text </i> this is used for giving a new "italicformat " for a text ...
+<del> text </del> "cut off " and print "new value"
+<mark> text </mark> "highlight " the content
+<sub> text </sub> value for "chemical formulas"
+<sup> text </sup> values for "power"
+<small> text </samll> printing text in a which is "smaller text"...
+<marquee> text </marque> "represent content in "scroller form"
+<pre> text </pre> printing content in a "formatted way"...
+<center> text </center> printing content in "center of we page"
+<hr> is used to give a line or a rule...
+<br/> is used to break a paragraph..
+
+
+List in HTML:
+Unordered list, Ordered List, Description List.
+
+Unordered list: this list displays content related to shapes like "discs,circle,square,non"
+Structure of Unordered list:
+<ul>
+   <li>content</li>
+   <li>content</li>
+</ul>
+
+<ul style="list-style-type:circle;">
+   <li>content</li>
+   <li>content</li>
+</ul>
+
+
+
+
+ordered list: this list displayes content related to Roman,small ,
+Structure of Ordered List:
+<ol>
+   <li>content</li>
+   <li>content</li>
+</ol>
+
+<ol type="1">
+   <li>content</li>
+   <li>content</li>
+</ol>
+
+<ol start="40">
+   <li>content</li>
+   <li>content</li>
+</ol>
+
+
+
+Structure od Description list:
+<dl>
+   <dt> Description term</dt>
+   <dt> Description term</dt>
+</dl>
+
+
+Anchor tag:
+"href" is use to redirect the link...
+the<a> tag defines a hyperlink, which is used to link from one page to another.
+top,parent,self -same tab
+blank-another tab 
+it can also redirects the page to another website
+    <!--anchortags -->
+    <!-- url address-->
+    <a href="https://www.instagram.com/" tagrget="_blank">Instagram</a>
+    <!--path address-->
+    <a href="./one.html">ONE</a>
+
+
+Align:
+we use "align" in para to make alignment inthe content
+<p align="justify,left,right,center">content</p>
+
+editing content inside the browser:
+contenteditable is used to edit inside the browser but the content wouldent be saved ..
+<p align="justify,left,right,center" contenteditable="">content</p>
+
+
+Attributes in Html:
+ all elements can have attributes
+attributes provide additional information about elements
+
+syntax: name="value"
+
+
+Table tag:
+
+<table border="" cellspacing="">: creating table ,"border="2px"" will provides table form for full data including cells also ... cellspacing means provides spaces for the data between the cells where we can remove the space by using "cellspacing="0px"" ...
+<tr>:"table row" to create row...
+<th>:"table head" content in heading format..."Name","roll","loc"
+<td>: "table data"printing the content in a row form in normal font...
+
+
+Form tag:<form>
+the form tag is used to crearte an Html form for user input.
+the form element can contain one or more of form elemets...
+in the form tag we should rap the all "input tags"
+Syntax:
+<form>
+     <input/>
+     <input/>
+      ....
+<form>
+
+Label:<label>
+mentioning the label...
+
+Input Tags:<input/>
+the input tag specifies n input field where the user can enter data.
+the <input/> element can be displayed in several ways , depending on the type attribute.
+syntax: <input/>
+
+
+text 
+number 
+checkbox 
+date 
+email
+file
+password
+radio
+button
+reset
+
+
+
+place holder means suggestions in that particular patterns....
+
+1)"user name :
+<form>
+<label>user name </label>
+<input type="text" placeholder="enter the text" name="username"/>
+
+2)Email:
+        <label>Email</label>
+        <input type="email" placeholder="enter Email ID" name="email"/><br/>
+
+3)password:
+        <label>password</label>
+        <input type="password" placeholder="enter password" name="password"/><br/>
+
+4)conform password:
+        <label>conform password</label>
+        <input type="password" placeholder="enter conform password" name="conform password"/><br/>
+
+5)number:
+        <label>number</label>
+        <input type="number" placeholder="enter number" name="number"/><br/>
+
+6)radio:
+        <input type="radio"/><br/>
+7)checkbox:
+        <input type="checkbox"/><br/>
+8)button:
+        <input type="button" value="Submit"/><br/>
+9)file:
+        <input type="file"/><br/>
+10)color:
+        <input type="color"/><br/>
+11)date:
+        <input type="date"/><br/>
+
+</form>
+
+
+
+IMAGE Tag:
+the <img/> tag is used to embed an image in an HTMK page
+in image Tag we mainly use src & alt attributes
+
+1.)src- Specifies the path to the image.
+2.)alt-specifies an alternate text for the image , if the image for some reason cannot be displayed.
+
+
+AUDIO TAG:
+Audio Tag is used to play audio in your we page 
+syntax:
+ <audio>
+       <source src:"./path address file " type="aduio/mp3"/>
+ </audio>
+
+
+
+VIDEO TAG:
+video tag is used to display in your web page
+Syntax:
+<video>
+      <source src="path address" type="video/mp4"/>
+</video>
+
+
+
+
+
